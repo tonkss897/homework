@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: #F6D6D6;
+}
+
+section {
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  backdrop-filter: blur (20px);
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+}
+
+
+
+.coords {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px;
+  background: #eee;
+  width: fit-content;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.glass-btn {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+  border: 1px  white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.glass-btn:active {
+    transform: scale(0.95);
+}
+
+.neo-btn {
+  background: #f0f0f0;
+  box-shadow: 8px 8px 15px rgba(0,0,0,0.2),
+              -8px -8px 15px rgba(255,255,255,0.8);
+}
+
+.neo-btn:active {
+  box-shadow: inset 8px 8px 15px rgba(0,0,0,0.2),
+              inset -8px -8px 15px rgba(255,255,255,0.8);
+}
+
+
+.clickbox {
+  background-color: lightsteelblue;
+  margin: 1vw;
+}
